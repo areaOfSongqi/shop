@@ -1,0 +1,18 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.114.129
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+  redis:
+    host: 192.168.114.129
+
+ly:
+  sms:
+    appKey: e5c34694ade3d90efea6f4b11f18b474
+    tplId: 133856
+
